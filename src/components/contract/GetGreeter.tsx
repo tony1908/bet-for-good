@@ -1,7 +1,8 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useContract, useProvider } from 'wagmi';
 
-//TODO: Replace with world x strings
+// TODO: Replace with world x strings
+// TODO: Foundry
 import contracts from '@/contracts/hardhat_contracts.json';
 import { NETWORK_ID } from '@/config';
 

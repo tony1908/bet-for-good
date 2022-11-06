@@ -21,6 +21,7 @@ import { useState } from 'react';
 import { Box} from "../components/SellOut-Events/Box";
 import { touchableStyles } from "../styles/css/touchableStyles";
 import { generateMockData, MockData } from "../utils/generateMockData2";
+import CheckoutModal from "../components/SellOutCheckOut/CheckoutModal";
 
 
 const causedashboard: NextPage = () => {
@@ -126,7 +127,7 @@ export function MarketCard({ data, setCheckOutData }: { data: MockData; setCheck
                         transition="default"
                         type="button"
                     >
-                        Buy
+                        Select and believe
                     </Box>
                 </div>
             </div>

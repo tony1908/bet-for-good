@@ -38,7 +38,7 @@ interface ModalContextValue {
     sellOutModalOpen: boolean;
     openSellOutModal?: () => void;
     modalType: 'NFT' | 'PRODUCT';
-    setModalType: (type: 'NFT' | 'PRODUCT') => void;
+    setModalType: (type: 'EVENT' | 'CAUSE') => void;
     modalTheme: ModalThemeTypes;
     setModalTheme: (theme: ModalThemeTypes) => void;
     modalAccent: ModalAccentTypes;

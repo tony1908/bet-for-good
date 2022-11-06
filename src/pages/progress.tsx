@@ -10,7 +10,7 @@ import Image from 'next/image'
 import profilePic from '../assets/logos/BFG1.5@2x.png'
 import {ButtonBase} from "@mui/material";
 import { AwesomeButton } from "react-awesome-button";
-
+// TODO: Clean ups
 const progress: NextPage = () => {
 
     // TODO: Adapt to the Backend is Next Project the send tx is = ? the string

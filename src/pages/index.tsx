@@ -97,42 +97,11 @@ const Home: NextPage = () => {
                     bg: '#E4007C'
                   }}
               >
-                <p>Bet </p>
+                <p> Go !</p>
               </Button>
             </Link>
           </div>
-          <div>
-            <Button
-                backgroundColor="#F3BA2F"
-                borderRadius="30px"
-                margin={2.5}
-                _hover={{
-                  bg: '#E4007C'
-                }}
-                _active={{
-                  bg: '#E4007C'
-                }}
-                onClick={() => sendTransaction()}
-            >
-              <p> Donate </p>
-            </Button>
-          </div>
-          <div>
-            <Button
-                backgroundColor="#32CD32"
-                borderRadius="25px"
-                margin={2.5}
-                _hover={{
-                  bg: '#E4007C'
-                }}
-                _active={{
-                  bg: '#E4007C'
-                }}
-                onClick={() => sendTransaction()}
-            >
-              <p> Go !</p>
-            </Button>
-          </div>
+
         </main>
       </div>
   )

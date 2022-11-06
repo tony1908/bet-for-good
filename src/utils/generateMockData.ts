@@ -13,49 +13,18 @@ export type MockNFTData = MockData & {
 };
 export const generateMockData = (): MockData[] => {
     return [
-        // {
-        // 	id: 1,
-        // 	name: 'Hard Fork t-shirt',
-        // 	image: 'https://img.joomcdn.net/d2613148b39ca93f42398e4d00ba21899bb0386c_original.jpeg',
-        // 	price: 0.05,
-        // 	description: '',
-        // },
-        // {
-        // 	id: 2,
-        // 	name: 'Bankless t-shirt',
-        // 	image:
-        // 		'https://cdn.shopify.com/s/files/1/0258/8924/3182/products/BanklessT-ShirtFront_1800x1800.png.jpg?v=1646438936',
-        // 	price: 0.2,
-        // 	description: '',
-        // },
-        {
-            id: 3,
-            name: 'League of Legends\n' +
-                'Finals',
-            image: 'https://pbs.twimg.com/media/FHoOQ7BXMAsO7Jb?format=jpg&name=medium',
-            price: 0.03,
-            description: '',
-        },
         {
             id: 4,
             name: 'Superbowl Llv',
             image:
-                'https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C612TwNUg7DL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX679_.png',
+                'https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Super_Bowl_logo.svg/800px-Super_Bowl_logo.svg.png',
             price: 0.5,
             description: '',
         },
-        // {
-        // 	id: 5,
-        // 	name: '3AC sweatshirt',
-        // 	image:
-        // 		'https://teeruto.com/wp-content/uploads/2022/08/lehman-brothers-three-arrows-capital-2022-risk-management-department-unisex-sweatshirtizme0.jpg',
-        // 	price: 5,
-        // 	description: '',
-        // },
         {
             id: 6,
             name: 'ETH SanFrancisco',
-            image: 'https://cdn.shopify.com/s/files/1/0844/9673/products/Cat_and_Llama_TS_1000x.jpg?v=1573986430',
+            image: 'https://sf.ethglobal.com/img/sf-og.jpg?v=3.0.0',
             price: 0.03,
             description: '',
         },

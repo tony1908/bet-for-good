@@ -5,7 +5,7 @@ import { generateMockData } from "../../utils/generateMockData";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import Head from 'next/head';
 import { useState } from 'react';
-import { MarketCard } from '..';
+import { MarketCard} from "../betdashboard";
 
 export default function MarketPlace() {
 	const { sellOutModalOpen, openSellOutModal, closeModal } = useSelloutModal();

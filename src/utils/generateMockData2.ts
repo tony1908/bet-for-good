@@ -13,25 +13,10 @@ export type MockNFTData = MockData & {
 };
 export const generateMockData = (): MockData[] => {
     return [
-        // {
-        // 	id: 1,
-        // 	name: 'Hard Fork t-shirt',
-        // 	image: 'https://img.joomcdn.net/d2613148b39ca93f42398e4d00ba21899bb0386c_original.jpeg',
-        // 	price: 0.05,
-        // 	description: '',
-        // },
-        // {
-        // 	id: 2,
-        // 	name: 'Bankless t-shirt',
-        // 	image:
-        // 		'https://cdn.shopify.com/s/files/1/0258/8924/3182/products/BanklessT-ShirtFront_1800x1800.png.jpg?v=1646438936',
-        // 	price: 0.2,
-        // 	description: '',
-        // },
         {
             id: 3,
             name: 'Save the Earth',
-            image: 'https://pbs.twimg.com/media/FHoOQ7BXMAsO7Jb?format=jpg&name=medium',
+            image: 'src="https://www.greenpeace.org/usa/wp-content/uploads/2017/04/GP0STQIZH_Web_size_with_credit_line.jpg"',
             price: 0.03,
             description: '',
         },
@@ -39,22 +24,14 @@ export const generateMockData = (): MockData[] => {
             id: 4,
             name: 'Cats & Dogs',
             image:
-                'https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C612TwNUg7DL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX679_.png',
+                'src="https://images.ctfassets.net/82d3r48zq721/45liwTLsDMSJt4N22RqrHX/cd992f88ca8737f95b085212906d6d86/Can-cats-and-dogs-get-coronavirus_resized.jpg?w=800&q=50"',
             price: 0.1,
             description: '',
         },
-        // {
-        // 	id: 5,
-        // 	name: '3AC sweatshirt',
-        // 	image:
-        // 		'https://teeruto.com/wp-content/uploads/2022/08/lehman-brothers-three-arrows-capital-2022-risk-management-department-unisex-sweatshirtizme0.jpg',
-        // 	price: 5,
-        // 	description: '',
-        // },
         {
             id: 6,
             name: 'Stop Oil without click bait paintings',
-            image: 'https://cdn.shopify.com/s/files/1/0844/9673/products/Cat_and_Llama_TS_1000x.jpg?v=1573986430',
+            image: 'https://media.npr.org/assets/img/2022/10/15/image_juststopoil_nationalgallery6_14102022-257491a2cc2e20a0069fe806cdda7fd33fc11da9.png',
             price: 0.1,
             description: '',
         },
