@@ -11,7 +11,7 @@ import profilePic from '../assets/logos/BFG1.5@2x.png'
 import {ButtonBase} from "@mui/material";
 import { AwesomeButton } from "react-awesome-button";
 
-const confimation: NextPage = () => {
+const betdashboard: NextPage = () => {
 
     // TODO: Adapt to the Backend is Next Project the send tx is = ? the string
     const { data, isIdle, isError, isLoading, isSuccess, sendTransaction } =
@@ -85,7 +85,7 @@ const confimation: NextPage = () => {
                 </h2>
 
                 <div className={styles.grid}>
-                    <Link href='/betdashboard' >
+                    <Link href='/confirmation' >
                         <Button
                             backgroundColor="#9c44dc"
                             borderRadius="25px"
@@ -102,7 +102,6 @@ const confimation: NextPage = () => {
                     </Link>
                 </div>
                 <div>
-                    <Link href='/causedashboard' >
                     <Button
                         backgroundColor="#F3BA2F"
                         borderRadius="30px"
@@ -117,7 +116,6 @@ const confimation: NextPage = () => {
                     >
                         <p> Cause </p>
                     </Button>
-                    </Link>
                 </div>
                 <div>
 
@@ -127,4 +125,4 @@ const confimation: NextPage = () => {
     )
 }
 
-export default confimation
+export default betdashboard

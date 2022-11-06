@@ -11,7 +11,7 @@ import profilePic from '../assets/logos/BFG1.5@2x.png'
 import {ButtonBase} from "@mui/material";
 import { AwesomeButton } from "react-awesome-button";
 
-const confimation: NextPage = () => {
+const congratulations: NextPage = () => {
 
     // TODO: Adapt to the Backend is Next Project the send tx is = ? the string
     const { data, isIdle, isError, isLoading, isSuccess, sendTransaction } =
@@ -42,7 +42,7 @@ const confimation: NextPage = () => {
                     />
                 </div>
                 <h2 className={styles.title}>
-                    What do you want to
+                    Congratulations
                     <AnimatedText
                         type="words" // animate words or chars
                         animation={{
@@ -60,7 +60,7 @@ const confimation: NextPage = () => {
                         threshold={0.1}
                         rootMargin="20%"
                     >
-                        post?
+                        🎉
                     </AnimatedText>
                     <AnimatedText
                         type="words" // animate words or chars
@@ -79,7 +79,7 @@ const confimation: NextPage = () => {
                         threshold={0.1}
                         rootMargin="20%"
                     >
-                        With Safety
+                        You’ve bet
                     </AnimatedText>
 
                 </h2>
@@ -97,26 +97,26 @@ const confimation: NextPage = () => {
                                 bg: '#E4007C'
                             }}
                         >
-                            <p>Bet </p>
+                            <p> Go to dashboard </p>
                         </Button>
                     </Link>
                 </div>
                 <div>
                     <Link href='/causedashboard' >
-                    <Button
-                        backgroundColor="#F3BA2F"
-                        borderRadius="30px"
-                        margin={2.5}
-                        _hover={{
-                            bg: '#E4007C'
-                        }}
-                        _active={{
-                            bg: '#E4007C'
-                        }}
-                        onClick={() => sendTransaction()}
-                    >
-                        <p> Cause </p>
-                    </Button>
+                        <Button
+                            backgroundColor="#F3BA2F"
+                            borderRadius="30px"
+                            margin={2.5}
+                            _hover={{
+                                bg: '#E4007C'
+                            }}
+                            _active={{
+                                bg: '#E4007C'
+                            }}
+                            onClick={() => sendTransaction()}
+                        >
+                            <p> Cause </p>
+                        </Button>
                     </Link>
                 </div>
                 <div>
@@ -127,4 +127,4 @@ const confimation: NextPage = () => {
     )
 }
 
-export default confimation
+export default congratulations
