@@ -1,5 +1,8 @@
 # 👽 Welcome!
 
+
+It was a copy past ultra sound money.
+
 Run:
 
 yarn 
