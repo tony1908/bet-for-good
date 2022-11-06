@@ -1,5 +1,12 @@
 # 👽 Welcome!
 
+Run:
+
+yarn 
+
+yarn run dev 
+
+
 Why is this boilerplate the best? 
 
 - Only open source libraries used!

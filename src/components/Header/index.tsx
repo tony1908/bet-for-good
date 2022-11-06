@@ -30,11 +30,11 @@ export const Header = () => {
 
   const navItems = [
     {
-      text: 'home',
+      text: 'Home',
       href: '/'
     },
     {
-      text: 'about',
+      text: 'About',
       href: '/about',
       icon: <InformationCircleIcon className="h-6 w-6" />
     },
@@ -44,9 +44,6 @@ export const Header = () => {
       icon: <InformationCircleIcon className="h-6 w-6" />
     }
   ]
-
-
-
   return (
     <header>
       <Stack direction={['column', 'column', 'row']} px={2} py={4}>
@@ -58,8 +55,8 @@ export const Header = () => {
           <Box fontWeight="bold" fontSize={[20, 20, 20]}>
             <NextLink href="/" passHref>
               <Link className="center flex gap-2">
-                <span>👽</span>
-                <span className="text-xl">ilyxium</span>
+                <span> ❤️ </span>
+                <span className="text-xl">Bet For Good </span>
               </Link>
             </NextLink>
           </Box>
@@ -123,11 +120,11 @@ export const Header = () => {
               marginBottom="3rem"
               fontSize={[20, 20, 20]}
             >
-              
+
               <NextLink href="/">
                 <Link className="center flex gap-2">
-                  <span>👽</span>
-                  <span className="text-xl">ilyxium</span>
+                  <span> </span>
+                  <span className="text-xl">Bet For Good </span>
                 </Link>
               </NextLink>
 
@@ -171,7 +168,7 @@ export const Header = () => {
               position="absolute"
             >
               {/* Twitter Link - URL SHOULD BE UPDATED */}
-              <SocialIcon bgColor="white" url="https://twitter.com/ilyxium" target="_blank" />
+              <SocialIcon bgColor="white" url="" target="_blank" />
 
             </Flex>
           </DrawerBody>
