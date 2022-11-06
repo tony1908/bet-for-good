@@ -38,10 +38,10 @@ export const generateMockData = (): MockData[] => {
         },
         {
             id: 4,
-            name: 'Bitconnect tee',
+            name: 'Superbowl Llv',
             image:
                 'https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C612TwNUg7DL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX679_.png',
-            price: 0.1,
+            price: 0.5,
             description: '',
         },
         // {
@@ -54,9 +54,9 @@ export const generateMockData = (): MockData[] => {
         // },
         {
             id: 6,
-            name: 'Llama tee',
+            name: 'ETH SanFrancisco',
             image: 'https://cdn.shopify.com/s/files/1/0844/9673/products/Cat_and_Llama_TS_1000x.jpg?v=1573986430',
-            price: 0.1,
+            price: 0.03,
             description: '',
         },
     ];

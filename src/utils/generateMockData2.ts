@@ -30,15 +30,14 @@ export const generateMockData = (): MockData[] => {
         // },
         {
             id: 3,
-            name: 'League of Legends\n' +
-                'Finals',
+            name: 'Save the Earth',
             image: 'https://pbs.twimg.com/media/FHoOQ7BXMAsO7Jb?format=jpg&name=medium',
             price: 0.03,
             description: '',
         },
         {
             id: 4,
-            name: 'Bitconnect tee',
+            name: 'Cats & Dogs',
             image:
                 'https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C612TwNUg7DL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX679_.png',
             price: 0.1,
@@ -54,7 +53,7 @@ export const generateMockData = (): MockData[] => {
         // },
         {
             id: 6,
-            name: 'Llama tee',
+            name: 'Stop Oil without click bait paintings',
             image: 'https://cdn.shopify.com/s/files/1/0844/9673/products/Cat_and_Llama_TS_1000x.jpg?v=1573986430',
             price: 0.1,
             description: '',

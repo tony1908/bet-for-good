@@ -126,7 +126,7 @@ export function MarketCard({ data, setCheckOutData }: { data: MockData; setCheck
                         transition="default"
                         type="button"
                     >
-                        Buy
+                        Bet
                     </Box>
                 </div>
             </div>
