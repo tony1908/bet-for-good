@@ -34,15 +34,11 @@ export const Header = () => {
       href: '/'
     },
     {
-      text: 'About',
+      text: 'Create',
       href: '/about',
       icon: <InformationCircleIcon className="h-6 w-6" />
     },
-    {
-      text: '404 page',
-      href: '/error',
-      icon: <InformationCircleIcon className="h-6 w-6" />
-    }
+
   ]
   return (
     <header>

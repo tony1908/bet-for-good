@@ -7,7 +7,9 @@ import { BigNumber } from '@ethersproject/bignumber'
 import AnimatedText from 'react-animated-text-content';
 import { AwesomeButtonProgress } from "react-awesome-button";
 import Image from 'next/image'
-import profilePic from '../assets/betforgoodwhite.jpg'
+import profilePic from '../assets/logos/BFG1.5@2x.png'
+import {ButtonBase} from "@mui/material";
+import { AwesomeButton } from "react-awesome-button";
 
 const Home: NextPage = () => {
 
