@@ -86,7 +86,7 @@ const confimation: NextPage = () => {
                 </h2>
 
                 <div className={styles.grid}>
-                    <Link href='/betdashboar' >
+                    <Link href='/betdashboard' >
                         <Button
                             backgroundColor="#9c44dc"
                             borderRadius="25px"
