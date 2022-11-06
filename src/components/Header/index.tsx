@@ -80,7 +80,7 @@ export const Header = () => {
               display={['flex', 'flex', 'flex', 'none']}
               color="white"
               _hover={{
-                backgroundColor: '#121212'
+                backgroundColor: '#FFFFFF'
               }}
               borderRadius="100%"
               onClick={onOpen}

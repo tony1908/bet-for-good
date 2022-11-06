@@ -11,6 +11,7 @@ import profilePic from '../assets/logos/BFG1.5@2x.png'
 import {ButtonBase} from "@mui/material";
 import { AwesomeButton } from "react-awesome-button";
 
+
 const confimation: NextPage = () => {
 
     // TODO: Adapt to the Backend is Next Project the send tx is = ? the string
@@ -70,7 +71,7 @@ const confimation: NextPage = () => {
                             scale: 1.1,
                             ease: 'ease-in-out',
                         }}
-                        animationType="rifle"
+                        animationType="wave"
                         interval={0.0006}
                         duration={1.25}
                         tag="p"
@@ -85,7 +86,7 @@ const confimation: NextPage = () => {
                 </h2>
 
                 <div className={styles.grid}>
-                    <Link href='/betdashboard' >
+                    <Link href='/betdashboar' >
                         <Button
                             backgroundColor="#9c44dc"
                             borderRadius="25px"
