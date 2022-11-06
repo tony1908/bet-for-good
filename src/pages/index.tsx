@@ -85,7 +85,7 @@ const Home: NextPage = () => {
           </h2>
 
           <div className={styles.grid}>
-            <Link href='' isExternal>
+            <Link href='/confirmation' >
               <Button
                   backgroundColor="#9c44dc"
                   borderRadius="25px"
@@ -100,9 +100,6 @@ const Home: NextPage = () => {
                 <p>Bet </p>
               </Button>
             </Link>
-
-
-
           </div>
           <div>
             <Button
